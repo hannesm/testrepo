@@ -1,0 +1,93 @@
+signed: [
+  ["wraps" 0x0]
+  ["version" 0x0]
+  ["typ" "author"]
+  [
+    "resources"
+    [
+      [
+        ["typ" "key"]
+        ["name" "a"]
+        ["index" 0x1]
+        ["digest" ["SHA256" "p3CRLizMuEu6j1rwwv2gt8s3nsrefJjPKYY8vzqJnjU="]]
+      ]
+      [
+        ["typ" "account"]
+        ["name" "a"]
+        ["index" 0x2]
+        ["digest" ["SHA256" "14UAVV3GrLbscl9/TrAFHhkG4M0TDGS1c+OIVYogeOg="]]
+      ]
+      [
+        ["typ" "team"]
+        ["name" "janitors"]
+        ["index" 0x3]
+        ["digest" ["SHA256" "CYTUqY+/SBs/yrizUW+QKM6/gVMs3PP9pPWwp7aGSOw="]]
+      ]
+      [
+        ["typ" "authorisation"]
+        ["name" "foo"]
+        ["index" 0x4]
+        ["digest" ["SHA256" "6lI14SS2NOU7OwE1vYv7dhCwbZ1TwV7fbqtnQY4jmZk="]]
+      ]
+      [
+        ["typ" "key"]
+        ["name" "b"]
+        ["index" 0x5]
+        ["digest" ["SHA256" "iTX++W2wO2SobN8nN+TobSbZl2JRS4Z+v4RSdP5MrlY="]]
+      ]
+      [
+        ["typ" "account"]
+        ["name" "b"]
+        ["index" 0x6]
+        ["digest" ["SHA256" "842w/yusRXBVA72ERpVX/EBu6Jy5orHC36pL5u8Lahk="]]
+      ]
+      [
+        ["typ" "key"]
+        ["name" "c"]
+        ["index" 0x7]
+        ["digest" ["SHA256" "ueu5B6V0n8nSjLDSc7oHdKsAFcia7ifmc4GqVXvHWTA="]]
+      ]
+      [
+        ["typ" "account"]
+        ["name" "c"]
+        ["index" 0x8]
+        ["digest" ["SHA256" "7qX0e1LWwRXtYfHkRttC/4/bSWNMmVA2KDmF0QfRDq8="]]
+      ]
+    ]
+  ]
+  ["name" "a"]
+  ["created" 0x58A7901C]
+  ["counter" 0x2]
+]
+
+keys: [
+  [
+    [
+      "RSA"
+      """
+-----BEGIN PUBLIC KEY-----
+MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAxjTI0muCyK32SLjUZxNN
+7nVqI1jxBdUhVubRlBAwY9PMFLOjo14VCxX60ADj1LAC5V0V0f0uie9dc3Al9T7V
+uUedBWF1QiMdTJ0/vTlcl0DKMJPFd4hxRqFCLa9y/00yJ/lVw6GzmgZQ19Ulqnv3
+HZQE7vJwiym8x/lMiumfEojA8+wbSPyHuvg1zvR1z8bGnMoUxZRwrzafRhIxJ9gI
+p8PDTK5cA33tlXlLsuOiGAlMiXUi24/Qngm5OjCxEqSGToy8aXCqTFbXRH/CtxOV
+2ImSJfbjIixxhJpm2XBSThuSoRlhj88tWMlhyzlLuXeykn5AC5Wp8C1McRP71zdj
+cq1hk3fwX1RqpwAp3eoS7udjlSrvbVIGi5dH/gGrqsH2478GTLMUcgG2htH9254T
+ChAWalPGA3VR8vAHXo+S3BjHfikyROLJhcolKMjY4fkmy1DgiF1GAZ1AZp3C7KbQ
+AGz6BT7xwQfhoupN6fNrX1X6LrB8DS85LE7MqykDXaHJc4IufaFrnjBtSF964bzw
+YmvgRESdJx0d/G6Ce+u+Q/qDdeNnCtXlZ+9tBfGj+X7NKZVxeLDAf+REPvi7iyHL
+NE9LBGnjV1MGVZDC1dNxQjXlk7hJsLj5txkHqF/vaFQ15eu0e7JcdE+H1tXFXKj9
+2UqSpzJ21MwP3NOTLlVo5P8CAwEAAQ==
+-----END PUBLIC KEY-----"""
+      0x58A78854
+    ]
+    [
+      0x58A79064
+      "RSA-PSS-SHA256"
+      "fGG2SjlefokWURwi9VWTuE9KuapU51xoNAmtqxMBZcqGu5EgtBWKawqfhMdsZDfKdEXTIPmN78nFB7XYkLXNGoKan/UJ1LFjjFULl7kSZqAUs644W9w9vcrKBvJlVKN3fA7/qcXzHki7KM9joJGczx5YVSFbmM9MvGUq7+zkw+9iQazVYL0ov0ksPbZIHxJfMOIsBRAIYoBBY4btUmA36QvuxrCj/Uu2cc+iNLQxTNhZee399lShQQKC4VTWm2iIPGnn1qL+pJbnffpy2zPp8yrfpqs7iBGSl9x9ghVmORH6UqLTNKsWes2HZjKOifZ+EgJ8eJN3pvhxn4zZVb3+k5kXCqCUaDVg0VoVKtae5xxRk6QWDKbj3WoXgKYRYVoE1iyoZt6StbpTKxk/GLC5Ry0Lf4LVvWqVUcCaGZDndBVWtDKUiNUKSVOX0sBYrc/mRTR5Jihjaq8IcVhsCqdkYNZmP5zvkU6452TU3RGwvoMee+czfL8pNs22XRSu6L4vnQ2sfgL/DUv6ADyxQTyTJ3tTXzVU//TMFlZrIMfmhZUuRrViJUqCFD7LAWz3nVqQ6NHMqverU+wr3FQnc35HqFyW+8xCA6ZRsImRx0HLNx/1v3DncCMMr5V1S3QqnxY43P6LfMuBWwWu9TYJXOGUw4n4mptfqyMKddbmIEi+YII="
+    ]
+  ]
+]
+accounts: [
+  ["github" "a"]
+]

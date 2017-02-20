@@ -1,0 +1,69 @@
+signed: [
+  ["wraps" 0x0]
+  ["version" 0x0]
+  ["typ" "author"]
+  [
+    "resources"
+    [
+      [
+        ["typ" "key"]
+        ["name" "c"]
+        ["index" 0x1]
+        ["digest" ["SHA256" "ueu5B6V0n8nSjLDSc7oHdKsAFcia7ifmc4GqVXvHWTA="]]
+      ]
+      [
+        ["typ" "account"]
+        ["name" "c"]
+        ["index" 0x2]
+        ["digest" ["SHA256" "7qX0e1LWwRXtYfHkRttC/4/bSWNMmVA2KDmF0QfRDq8="]]
+      ]
+      [
+        ["typ" "package"]
+        ["name" "foo"]
+        ["index" 0x3]
+        ["digest" ["SHA256" "WlH6hOizXUC84aF0q7AMLHlZQUq13s1JB/TmdYrROUg="]]
+      ]
+      [
+        ["typ" "release"]
+        ["name" "foo.1.0.0"]
+        ["index" 0x4]
+        ["digest" ["SHA256" "4xl6/d2au3PwAzURo78baHXQfTop4lxsZdBzjO9y8Vw="]]
+      ]
+    ]
+  ]
+  ["name" "c"]
+  ["created" 0x58A7902A]
+  ["counter" 0x2]
+]
+
+keys: [
+  [
+    [
+      "RSA"
+      """
+-----BEGIN PUBLIC KEY-----
+MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAqURcGuEprlJdjedH8Q+M
+XvTDzCw9zAFPsrcxn68/TMaQw3JFHD1EKZwUh5/YhCEpY6mnP5B2QDARhbgb1i4x
+0xU75p3dJ+Fl8WOqIAWEsRBHm3bdInbbP7vc8DPzWUixMDvj3D5b4j1yzQn/fsYx
+mbSvlGl5RCpl72DY3frZXXFyXqrg/iJaae/RNVlQndGz6UB/1oRZgGXlFjY/wVNd
+4s7ICIDqPXosvjFlWRlx0IAvoY3hjWBnyMabvExOlywIMWliRiJapikCT6/vnnv8
+yTfI/zTB+8DcMfwORbO/GcoMA6esdkXSkqBfg/cAYA+2xzPq2y15owkj8uLMXDnG
+0r8KBsuFPHUs9Ihzg1BXPlOlHnX/zQL80D3UGt0Q+UraBpLaTuqHEk5SY3qg7dAL
+IIL7OxNOhQTlhGMTV4a+fBfbDkRrLbgJ1o7JfuMO/sAqr5bDl5lP9sj+6IXYbCC4
+yfON+fRcd3scF7gifS4o9tOKv/5NT3LOkfz/HFFbZuqKIBykDF0XPzlQEXuzdRfn
+naSsz7xDRMCsfqUYgiI6WSiOmMEfxcsX/xwnRCeBr0LrJzyOCwlS+WbJAQAAPVWL
+NXg9DcmJ2nmlVuT0XUOtJWc44A4U37YOMBeHFRVhLfO1rx9egBl4dY6oiPpjls7i
+LlE+T/oPHk0wIy0nI9xPSAcCAwEAAQ==
+-----END PUBLIC KEY-----"""
+      0x58A78898
+    ]
+    [
+      0x58A79075
+      "RSA-PSS-SHA256"
+      "N8K2HItFA8pGKBGzs01iozsH6xv2e2dCMwn7iBxYHWY81qjnEKe1xUcRi+8Z8RSruqCnhq0369fyYjD4RqqByc7knRhxpJrYiZNwaxsA1NjN5sZysDTABCdMuwZtDpBA/SUKyHi/go/kdfXjudZf2TR6+Wp57cTkgmupPTVSoD2LnBnIuFc29MggUVmYALsRlftKXWm5sIJhHFzm1GnCOxiZOc9MlbAaVxsRWGSuZK26zmLqCrztay8SpThm7+3s2HIqulsC91z7ENcvwOW7uV8aUDgciPZmK/KgtOVl5GFDfFUiM55Z8DKZys+Inif1cAAqh/XXHkpP4JaZFXfX0eXhRmS5WF3kfqHm3A84EVPEv8U85UWZwhzUN6uhaESwp4mVsQmMGxFAzKWEZUcfYEQwnbKMV0z3AnQKmmTE+2YG0sTaYOYiGQXPfF7dRt3j9QHu1fM4ZdoKALeUIjnQ+tGlhf4fq0HJ/yb0KkM/SStMsTtgxYqXSUECIPZfDYPVdZU5ZZHvKhOHEFbmN6XnCCKszF0iuNGC0ZbMDtQdRpLrUdPOjtkZK3XxRJvu/NgTSljWgqDEuAadowzDFvzyck3PiiXFponzrhVh9tlpKZb7Zy/DzWFBeH6cYhy/B2Lgbd7nk2lWIBC5QxCEsYqRkpQ3zBwlVS1Qb9hT8JzqG0k="
+    ]
+  ]
+]
+accounts: [
+  ["github" "c"]
+]
