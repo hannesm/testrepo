@@ -1,0 +1,117 @@
+signed: [
+  [version 0x0]
+  [typ author]
+  [
+    resources
+    [
+      [
+        [typ key]
+        [name "b"]
+        [index 0x1]
+        [
+          digest
+          "sha256=bd22323ba8d661158297504968e8b92cb313c16029684a968ffc390bdcbe591f"
+        ]
+      ]
+      [
+        [typ account]
+        [name "b"]
+        [index 0x2]
+        [
+          digest
+          "sha256=f38db0ff2bac45705503bd84469557fc406ee89cb9a2b1c2dfaa4be6ef0b6a19"
+        ]
+      ]
+      [
+        [typ authorisation]
+        [name "foo"]
+        [index 0x3]
+        [
+          digest
+          "sha256=d43acb540f2b56f1546c4eef202e9439960f40594ca7f363a282edd34f5ddf9e"
+        ]
+      ]
+      [
+        [typ team]
+        [name "janitors"]
+        [index 0x4]
+        [
+          digest
+          "sha256=e4726916e81400a69a0c9d09c4918b4d27868ef2541dc32389a11f977758680f"
+        ]
+      ]
+      [
+        [typ key]
+        [name "a"]
+        [index 0x5]
+        [
+          digest
+          "sha256=e9814aa297418e29d195160c065eab53a1a80d943bd0f7c99a315160dc478a16"
+        ]
+      ]
+      [
+        [typ account]
+        [name "a"]
+        [index 0x6]
+        [
+          digest
+          "sha256=d78500555dc6acb6ec725f7f4eb0051e1906e0cd130c64b573e388558a2078e8"
+        ]
+      ]
+      [
+        [typ key]
+        [name "c"]
+        [index 0x7]
+        [
+          digest
+          "sha256=5a9e189999a85cec93f040407b3611972558050cf2aa78a3b0690f0577a80e7c"
+        ]
+      ]
+      [
+        [typ account]
+        [name "c"]
+        [index 0x8]
+        [
+          digest
+          "sha256=eea5f47b52d6c115ed61f1e446db42ff8fdb49634c995036283985d107d10eaf"
+        ]
+      ]
+    ]
+  ]
+  [name "b"]
+  [epoch 0x0]
+  [created 0x58F0152D]
+  [counter 0x2]
+]
+
+keys: [
+  [
+    [
+      RSA
+      """
+-----BEGIN PUBLIC KEY-----
+MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAu2Q5ace6RyuOKBStiZY3
+ejLeO+5omrBGEaOtblwDEAKB9buj4FvsO45nHoW8NHCcM5e/yOfFBtgF3JJeQ1uY
+/dZRMdXV/GHhPfcMmbTW3iiTRKOfSjYs2hFdD0/cLTO+XKfjSuVxmnIwdwrRAU6P
+hBRYYzAaByGgkRmkSNTx5Coca54v/c8WKy05+e/kKNvFOgawNLyjeWY+SLbClr1A
+kqimpyRaYjjeZCGimICbPMfcu/uJ+l99oGqRALolEe9Mzh13LwElADZeIF0TgZdj
+J7d4sRx9DocB7FK2PFW44n5Le8rQKYevY8Gp7ZUtLFbi1AOf3fBPzE3RyfEA7rbh
+x0Hf4/06sm4X12tPRIugeob0IvizTSE/oAeW6YtHPqWWRKL7wIR3P67Mb+BohwAu
+CGwHRHFYfC71a9dXKLW+062MfXQuSvDGWRpvC4BVBjHNiLDO2x0BGmFWPPNKIQrl
+mYS6JnHzQXO/6mAvP9ZiwT8wZyNsoiPtLonig8YTJHzev2QeOAmS6FjISDDbkeps
+vDiMUoTeaMoy6ChuqoRbYFD4UrbJNfecnXEBT3ApXexvwS7EAjmTzmXllt+Ylb7k
+r8zvKbeu4xCsVbt7gqDfI/CoSdmQ+nGqZ7SewdHXpEKnqNi7XcydsMLYvBx2dOiI
+YTJtMzlTQox8xkZL/whv328CAwEAAQ==
+-----END PUBLIC KEY-----"""
+      0x58A78893
+    ]
+    [
+      0x58F0156C
+      RSA-PSS-SHA256
+      "Jvuf/KpB5G3XfIW0Bq39SxJ2Bhn3benjB7zqGVFixu+L3xOMP6t63VutsrpsULrtZTB4+/IKSSjbncK0gspmtowvYAZ0I/ctDLIAk9u5e2jJ8aZCb5hcJvcmFrtOIxWN5UUcDiFwF3+OIuV3v4m+j11EIyRdhDr3iLssJAAp/xjbHSNk55EMtzqa5WwcWtzi7ekVc4wnmTFECqKOxnVboB7lHOkaxmUq7Hc9D6kaj5iLr2gqtqEtJn+zEJQAglZEJrMc28yjXff3rGxFHHGe0EKDbqzAGAhoyucCV0DtSUCzc6/B7ufxBpAs2kVr8T2CVVuF/O+1N2aKIqropiiDCoLrsxwcVeyE1z3sLzUQR1ZSXF1epDOIudAu1MenkGZgeuS41c95HYZ8Mkdc1hBtwElQcd/dP5D1eTeNTitwxSysrS3zJY8UzDP2qx4JCqTmV+4HtOPA7w3cFCqJMPYOvLJoQpGnvzVNegfH1aBX+4eMNSmryyxqbf/Q37oLWf/bXaRFcpM81z9ogbil1eFsSt6SPQcC49QMGDtajlN9t/VU/mKjQOi5DE8Xw0eKIRyTGMgk7VcssdmRzA+G+8ttkq+UVwahSxUpyHOLWWyO275gJTsGhIVrRnEohbjSjY+cZvlI+FZTCoG5euQxTFicRNCPZde4YHUpi7b4cLGCjsM="
+    ]
+  ]
+]
+accounts: [
+  [github "b"]
+]

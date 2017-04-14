@@ -1,0 +1,7 @@
+version: 0x0
+typ: team
+name: "janitors"
+members: ["a" "b"]
+epoch: 0x0
+created: 0x58F01536
+counter: 0x1

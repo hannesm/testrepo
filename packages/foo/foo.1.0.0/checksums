@@ -1,0 +1,12 @@
+version: 0x0
+typ: checksums
+name: "foo.1.0.0"
+files: [
+  [
+    "opam"
+    "sha256=ccea69740e61ce074ed53019ac0dcde3c9602b00bdf21b12c0e53be2328f9b52"
+  ]
+]
+epoch: 0x0
+created: 0x58F01557
+counter: 0x1
