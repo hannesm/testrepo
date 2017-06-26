@@ -7,9 +7,9 @@ repository-validation-command: [
   "conex_verify_nocrypto" "--quorum" "%{quorum}%"
   "--trust-anchors" "%{anchors}%"
   "--repo" "%{repo}%"
-  "--dir" "%{dir}%"
-  "%{incremental:--patch}%" "%{patch}%"
-  "%{incremental:--incremental}%"
+  "--dir=%{dir}%" { ! incremental }
+  "--patch=%{patch}%" { incremental }
+  "--incremental" { incremental }
 ]
 ```
 
