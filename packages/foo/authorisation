@@ -1,7 +1,0 @@
-wraps: 0x0
-version: 0x0
-typ: "authorisation"
-name: "foo"
-created: 0x58A79036
-counter: 0x1
-authorised: ["c"]

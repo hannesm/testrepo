@@ -1,0 +1,68 @@
+signed: [
+  [version 1]
+  [typ root]
+  [
+    roles
+    [
+      [
+        root
+        (1
+        [
+          [
+            rootA
+            "sha256=5a148d3977cb03dbeaeb99fa7033b5c7a43c8c7ee1114fee0c22fada2f7c9687"
+            0x0
+          ]
+        ])
+      ]
+      [
+        janitor
+        (1
+        [
+          [
+            j1
+            "sha256=01a205ebf55fe81be2291102bd177abb3312fc8c655c47ef96fac316e276226c"
+            0x0
+          ]
+        ])
+      ]
+    ]
+  ]
+  [name "root"]
+  [
+    keys
+    [
+      [
+        rootA
+        "2018-07-27T11:25:54Z"
+        """
+rsa=-----BEGIN PUBLIC KEY-----
+MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA4m0aqyBUY3+V8poiHEYW
+UoB7L806SttD50TG2W9HH8CsstflUuD6J1bbXdztvJVZLsCICVBepR3+cxpZSa1H
+O//1mc+hLDkxwTgN9KA5P8pwpJnsZyrVv38VBrWbFlF+hYzyAsQl6bkLT4ovipXF
+7Ikaqd7v7JULCfyCfcp01PC3jVlEG0ZSodjoCGndEsLkugv3Rslk9YZq6ZzZFROM
+UNBzgvH4rneqIKypLdrXQL6tPDW0CxkN691nidhPJGKYL831Qaw/hy3J6cCMqLFb
+J/+qtYCdiChpSTGOhwqaxgyBUi/3SHlSOOPq/6l/SQ1TsHyfQj6AlHgyZZxZol+X
+5zVJwX258Eg2AnxFBhbWY3eoH1Lq7c07OlRZdiPmuK5RGeCwue/VheVsmdjpxu7M
+S6f38l69ncm+3RxkPbRs9+xex4PF9ADAUN6qJuUSKrRyGeSjAlbUCiG+p2ODvx2q
+WOUmdd2AeFlVuOmW2wndPqNpGXiqRmm3trgWMoVH21QmBCJC6wMXzX8OIKEoeQIt
+rK/UN2i03+AgTlHF8PLSylINAR3CmxMhmhxMzMIi/bw1REslAIuVY93lfaIpUGt9
+02l0prZHi4JcicItsmBumSh9g5aI8fvDhQelH1+dgjJhlk/xqHQipq0fjqly6hlP
+5oTBkxHoVrwlEyPAO5pCxsECAwEAAQ==
+-----END PUBLIC KEY-----"""
+      ]
+    ]
+  ]
+  [keydir "keys"]
+  [epoch 0x0]
+  [datadir "packages"]
+  [created "2018-07-27T11:26:24-00:00"]
+  [counter 0x2]
+]
+signatures: [
+  [
+    rootA
+    "2018-07-27T11:43:17-00:00"
+    "rsapss-sha256=vSWMLmEFmkEqE6mHgozLhgTXvsgK575Ntvavmh2ODa9gEpyGT5JlQFx0xjnfFAlf6G9w0eeN4SDOoAtZwXF7NvXidUWa7wATAedoTzfs2wlVTqhD2UAZYpBcUjNIa/lFzakzjVdDKCmgpmHeGsUk5cSlIIwEw0h8vl879fQznjYaEEpT9jr+D4C2AfqjoRrS/qZMlcy91Vma6sYIJSDJS3DbegoroMiIi9iBWpkwGaiPpYyTqp14Lu7CiKiplfAb9Ku3u2djaGHZrUi7ASfwJmyZsWydFx0iPxVlRXbTZelSD7jL8u3OXvZIpGxtSxlLJExkclAjXKLWzdW6q7K7A4VQsVme1o0/oPslRHltdujyvUd+oXx4w1MEAFDfK4/8Y84x4ZbD3OS5NiHykJMKwREAYQgFjFmKQZPcxWiIsFZ9z1U7IArb9rnpFov5XhaAMfpGpRD/7FgSfArSoHgFCX06w0ftYVns0+Xjkv+y5YC0YppqbHcmZ1OYK2Txch1flT3BDY5O51GQcgclinNwen02/QBghV4Ng/MBIKFMtL+9TqAewxwf6SJhIuK97RYXacseQSuJbbA/2M5NRkRsqqu3WhL465Glqzlb12exUcaUDTupgqxybVRVp4FmJIOcx0r1Kh7/Coyq46tRKT3fK9z1MhXmofkL9s+C4vTnI3M="
+  ]
+]

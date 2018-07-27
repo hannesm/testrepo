@@ -1,0 +1,66 @@
+signed: [
+  [version 0]
+  [
+    valid
+    (1
+    [
+      [
+        j1
+        "sha256=01a205ebf55fe81be2291102bd177abb3312fc8c655c47ef96fac316e276226c"
+        0x0
+      ]
+    ])
+  ]
+  [typ targets]
+  [
+    targets
+    [
+      [
+        [size 0x1FF]
+        [filename "foo/foo.1.0.0/opam"]
+        [
+          digest
+          [
+            "sha256=ccea69740e61ce074ed53019ac0dcde3c9602b00bdf21b12c0e53be2328f9b52"
+          ]
+        ]
+      ]
+    ]
+  ]
+  [name "j1"]
+  [
+    keys
+    [
+      [
+        j1
+        "2018-07-26T13:46:51Z"
+        """
+rsa=-----BEGIN PUBLIC KEY-----
+MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA4Zq//nRd4hK7z1oOnRN6
+1yPLg7ZtQeKY3oVVGtJuNZN0X05ixXzie1FeilehZjYhkKC2PEyA7ciEfx4WYQJc
+C7/bB83U0GQSjeHhyah8DuXlaJo+YlBw5XkvmLChrFsXvPUglgyHfzdko7ZSH+8i
+aFnru6VnmE9O5k7ySdBjW+/t/4+Q2aTpA9DctV4WZsO/PJXU+jsKj/fejYwh2LOI
+coQ55+xX3OPJwpdsYWKwAmqwR5JmgBcp1HWjKrhYkbFN8Fe2Hv1S7nwzrU7rOrEO
+YRzF0ro9lK67d1TQ4jyzx84n5XA816wDLkQn14WkDNGGr8+mrQN11X6hA+lgUamb
+J1koZLDh2uLyk79qd+R7bu7kd6dAxEsBaf6nKDJmgushcbHzG+EqKxUfBcFRk2Fg
+yamwDPSn9aHhu0rERgTx7x3Od54KC6QrGbgtvPMMNXVtJyW91eiMm30qPEAnQSeP
+rmQzMNv+bupQ0inqOPde8aeyUWoWTjeYUvkVRhv/n1rTF/5q7uwEuAkcPao5mD3C
++mIEw2Tpv+RShzPpKr0z8kdREvIf0RU4cuEHGBqG2vwi/Cbicwrdb6MsTdUA1PE+
+kN8xbLVq68P6njPlVoDHH2pUsv6vc6CAdYnudKBmw+rqYrMq35FYM9o2lsc2SjJA
+jLaeCPGgrC6MF7G88rsPwjECAwEAAQ==
+-----END PUBLIC KEY-----"""
+      ]
+    ]
+  ]
+  [epoch 0x0]
+  [delegations []]
+  [created "2018-07-27T11:54:54-00:00"]
+  [counter 0x1]
+]
+signatures: [
+  [
+    j1
+    "2018-07-27T11:57:21-00:00"
+    "rsapss-sha256=OV7SIC0aDyQpr+1gWqaR0k0RcrahCYcCTwABqAkL9p2+zD8r33wFuARytg41pfxftfny5QWgEpEAK74MpAKYDoIPFIGtrhM//8lK2MMaKyOQelw07al6poaqczPctROd3wZCorSnMvbbWrtB/8DSBP6gAGO+h4h3Y1+wcdVnCn02/vBA+X72dnXMNRPOmOY9Igv6buBp6VtY6pAXCKAARWeicTikI24l9K4wQBnI5QKeLGoJT8jUxi5fcO6v1NDi46UlGMFcfYDYqBd/8iw5tu46RHFxd2V1Afi1Vu4A6yV2z1JPmv/39pNOY4KurHRpGd8sywNEj1RqauA3KzVgG+BjykWaLuC1Rd14ntf+c2dMujLPSfmbWW5ypKaFH5hxPIER1tIM/oLdstSJHe5nC1qmTQNAIZlRddKVkgO9lVDkb987926WVSwwM/rcxgn+uXKTcbboPvP4Bf64HUFXgt1EEUpgLg/jbuwqMwfkxjEhkzaAggcogHcPvP08mCvuPjpoTaWlAU7ILOBOWa8FbzBXHFoa9gz89uc+h/BAm71y8vr9VVSVoUlBqhzxIRuy4u3Dlu6xRnwU5ekgBaHllOeO+6oRu+kbAq7Y7bCpAaL0/NlIUgiFCnfLKWtoTgzMx7NSoaqOGObO55kjkVoaNLuDlQZr8LQtEnYPh9mbVK0="
+  ]
+]
