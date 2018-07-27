@@ -44,13 +44,15 @@ $ echo > /tmp/testrepo/packages/foo/foo.0.1.0/opam
 # init some keys
 $ conex_key --id rootA
 $ conex_key --id j1
+$ conex_key --id j2
+$ conex_key --id j3
 
 # root
-$ conex_root edit
+$ conex_root edit TODO: should be create!
 # manually modify root (roles: root / janitor; keys: root key)
 $ conex_root sign --id rootA
 
-# targets (janitor)
+# targets (janitor) - repeat for j2 and j3
 $ conex_targets create --id j1
 # collect targets
 $ conex_targets compute --pkg foo

@@ -17,11 +17,21 @@ signed: [
       ]
       [
         janitor
-        (1
+        (2
         [
           [
             j1
             "sha256=01a205ebf55fe81be2291102bd177abb3312fc8c655c47ef96fac316e276226c"
+            0x0
+          ]
+          [
+            j2
+            "sha256=a0ed2dcec72d93b1a9ec9e324da95290afd44b652f1e5cf6974e6633e41045fc"
+            0x0
+          ]
+          [
+            j3
+            "sha256=492390932f7d7d1296f06d3600cb6c394f2c725c12c7ddcfd8af178683e5b0bd"
             0x0
           ]
         ])
@@ -57,12 +67,12 @@ rK/UN2i03+AgTlHF8PLSylINAR3CmxMhmhxMzMIi/bw1REslAIuVY93lfaIpUGt9
   [epoch 0x0]
   [datadir "packages"]
   [created "2018-07-27T11:26:24-00:00"]
-  [counter 0x2]
+  [counter 0x3]
 ]
 signatures: [
   [
     rootA
-    "2018-07-27T11:43:17-00:00"
-    "rsapss-sha256=vSWMLmEFmkEqE6mHgozLhgTXvsgK575Ntvavmh2ODa9gEpyGT5JlQFx0xjnfFAlf6G9w0eeN4SDOoAtZwXF7NvXidUWa7wATAedoTzfs2wlVTqhD2UAZYpBcUjNIa/lFzakzjVdDKCmgpmHeGsUk5cSlIIwEw0h8vl879fQznjYaEEpT9jr+D4C2AfqjoRrS/qZMlcy91Vma6sYIJSDJS3DbegoroMiIi9iBWpkwGaiPpYyTqp14Lu7CiKiplfAb9Ku3u2djaGHZrUi7ASfwJmyZsWydFx0iPxVlRXbTZelSD7jL8u3OXvZIpGxtSxlLJExkclAjXKLWzdW6q7K7A4VQsVme1o0/oPslRHltdujyvUd+oXx4w1MEAFDfK4/8Y84x4ZbD3OS5NiHykJMKwREAYQgFjFmKQZPcxWiIsFZ9z1U7IArb9rnpFov5XhaAMfpGpRD/7FgSfArSoHgFCX06w0ftYVns0+Xjkv+y5YC0YppqbHcmZ1OYK2Txch1flT3BDY5O51GQcgclinNwen02/QBghV4Ng/MBIKFMtL+9TqAewxwf6SJhIuK97RYXacseQSuJbbA/2M5NRkRsqqu3WhL465Glqzlb12exUcaUDTupgqxybVRVp4FmJIOcx0r1Kh7/Coyq46tRKT3fK9z1MhXmofkL9s+C4vTnI3M="
+    "2018-07-27T12:15:24-00:00"
+    "rsapss-sha256=T3NkHCG/138rNssthZsRiOMotE8p/BH8UO5INesyEsuZvaZYRV2Gp6uwBgLDOxX0yAQV1TViNUz8XmOzFikjWoloiDEFAco+YY1RdQrFpQ+gT5UbbsCi5CAxjJtiU2b5rQN1ZJria6hn2US5SElzbpHE2YBoL1HplV+ByZqgkOeFvk27GbnA+l7CJjJpnVltPe6CSsOwGb2qQ9w2E2jsf2VunvVxE4b4yr3UNs9sEdfRIsenPh3SOyLvK+NpeEk/brs9UaedDNskBXLMDupzYAjOB43nKxSJ7lB0Zl9/axdS2OAqzUeTxmR5m/LFmc05cBcFoBD/2bUQ+Q/ihVuQU3TgqGkdFIMSXjkMbJfBC6984coNPBZjIk1XN9mU24h4CK1Y4xgSuKsb+7SsRl8hhT60jpPFNyaum2aQvvTmrsWq5WNpeUTN/sh+cf/2SvQBlyXQuvZYeafoTWXQ/VWJPRflMJnpukBO7dPcivYnwoJz7McYXBOE/XLW/K2/zI1XM8WjoMS0ZYrFGtw94pKHhT0umeqWjILTUhzad+F26iD3XyJlPrsQ0k+cY3VTdQkpVHpyIqPUdP/Iu4CIkypPh5lDSLLVZ0FwA5CX1dL3prei2anYoEEOPeJ2CHVu3XcBrhVXYlfWK4M/3jrhLC5cespyqyWDftEFLYoTFd3JRtg="
   ]
 ]

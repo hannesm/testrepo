@@ -1,0 +1,52 @@
+signed: [
+  [version 0]
+  [
+    valid
+    (1
+    [
+      [
+        j2
+        "sha256=a0ed2dcec72d93b1a9ec9e324da95290afd44b652f1e5cf6974e6633e41045fc"
+        0x0
+      ]
+    ])
+  ]
+  [typ targets]
+  [targets []]
+  [name "j2"]
+  [
+    keys
+    [
+      [
+        j2
+        "2018-07-27T12:12:33Z"
+        """
+rsa=-----BEGIN PUBLIC KEY-----
+MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAmNGiJ0vupaZBUNFYCSvE
+hCDzr4si/BWaKOlb8Ry2O94s+u5Zn+PWk9+rKs03p+WyZqOZ6f3RJdfjhXqAuaas
+L62A4+LhfKAxcNMspCC7MBdu6G0/C7Iu1OhmOjnU/7NfAlDN43FpAPOhjxN6ihlD
+wc1huz71dvin5xjxTktuEtd9rR2biDASxCKt1n2xEjnM82ckGjexVQ0eJk4+TjdY
+WOqOd4/IO7Yd8ZwBCtFAOaZIC3P8mv7kolWHLRHhkY8ceQwtvLGtc82FdGS2QiYr
+ihyRwEpawfckxLNXwwNwsTkOK0r7UR4OOWJIZUIhUFOBMiP0VUEnE+bs8BSXNyHO
+HMgE5DBKPBCS07W9PamjlzS8saQq/y/HEXUPDRKXtbkfYRAJ2ZSm1bL+qkMeRO59
+PKUDVgliaGBpLRHYd5jrKjnIOBbfauyIzND2TioMFkQLZC8+gm8Q+HIPpYFtUYSf
+hYcgdw37y2ppK3SwV7bt0jLBn712dHCst48RRYqlMbcUqplXO4sHmGxQRC+T4bty
+2hl6ljnuACEDrLn7J0H6ciJF1EI70E8f8nvAznvD82mGV2+bJal4rfiCJ70AHLZC
+d/DrDSJw6dkQZ7elL5bNlVZHvvjQktkmK2z8bKC99dUpa7kpy6Gc5HJn9ptG+nxv
+vPXjhyO8CX5Txscw0zoP228CAwEAAQ==
+-----END PUBLIC KEY-----"""
+      ]
+    ]
+  ]
+  [epoch 0x0]
+  [delegations []]
+  [created "2018-07-27T12:14:10-00:00"]
+  [counter 0x1]
+]
+signatures: [
+  [
+    j2
+    "2018-07-27T12:15:16-00:00"
+    "rsapss-sha256=APSxNvGGeRGdk11SmyRGgrNdkRLIqFGI2J6k+ACmFTCLDn+FXYIJSPt3besZMly53hwE6Yxoz2TROR8+FsefuCo3xDzXvV5B9aQaNwwGdXlF4ZwK9TgcQ+MK5NznA6cYUEgPizSpthp4Tx7jhp6A2oA7bQ6ZqD7dcGXB/oDSvK2XW9jNmg2tlDvwKrSJhJHl5Vx1GH3YJbnrX5YEqAMQFXpX0OyioFR3lySUhvx7CQA8qC7E9V8WTkZ4xHm48zs/AMba0uu1sfxrNvTaJkVyN/iUVbxiZzrw+NC3utsf/RDMIoRbz5nJR+shrlrJiyy4wqb8lkksct+2q1ada2zoZdDv9k7JtjJGgiXO2EyY1N2Hl64sJcBWWxnhTlQ7GXeWPgWj6eDoxPC4V0sRG0rRjm4vT1U6oSKMuwcDP1e2zWPfEoG+juvwtwCWpNnmnoD8kShF6dANbtApb8D5hQuVxYwM1BllLz8HAHQUwP/Tf4yVXtTvNrMiGjQ9CgafBkYYLIJ1nVzwfAzQhWEShxpcNOgbcSKMfFxYCTzM/dZUR2dxH647g0js5HzBhzdNYcuxxbiqnoxI06W8CxzHZtwbBaNT8gkHbOXCgLrz+01dJIwW1eBm4u44VtYWAVg50j85hKcOvk7/gaE0ipym/uxdH2ifE5pYOHhhlRFEWYUWFHY="
+  ]
+]
