@@ -1,16 +1,6 @@
 signed: [
   [version 0]
-  [
-    valid
-    (1
-    [
-      [
-        j3
-        "sha256=492390932f7d7d1296f06d3600cb6c394f2c725c12c7ddcfd8af178683e5b0bd"
-        0x0
-      ]
-    ])
-  ]
+  [valid j3]
   [typ targets]
   [
     targets
@@ -60,7 +50,7 @@ Av4JHD7SvPygvVEjYIrK1r0CAwEAAQ==
 signatures: [
   [
     j3
-    "2018-07-27T12:15:17-00:00"
-    "rsapss-sha256=ovouSZYZmleX8zkKDoinVnnuMaiik/B7L7jPIs4hYPEp0qFNH+c6ic1gR2M6TZKQ6XTZMPGSsjmt9Sl+3XBMtUcl4fzmRr9zloKCbeADkzPFYO/dDBQrThDzWX+1OtlkQ1YA0dKwfwkWYiXAYW+oUNQZVLsjYcjbFvj6YMITbAM2v35JWBTvRG9P2U9jfSXBlPSBMH+BXY00MJinN4qlMT8bFNPkCS3rYgAPnabGeZ2eh5IbUfPAil9SR28y8zNXDk9DnUJOrC7P++bStU4QpDkBxPl7SNd+DaS1P/NXi7FkwDuTuabupqZgJ+BRit6Rux3YAH+MvpcMEY1Yb2F8sHY7D3ndy+PfsodSD6mYiocCaN1pv9oS9lF4I2Fo+Mn1iZT/rBV9R02foz0JQlt9pMGt1hSa/DrBovhEfUoZnE6zqduKzctHzsuwJrgjLUJyhAmY5JGbZUNsDeNARxSII+KmhLulE7lzwNEQhgBVmbd8N7/Drp+8t9uOspaUGtTF2gk679r/xhAIj5f0SnQ2RWGByme1dUBSNz1v5L2EaCr9MoKJCERn2dU7fs0C7Z6eW/T2DWhOk1rQ1epP7pyWXrDTyxhbX2N7xTlNIDjmTr5dEPO6zkAJm1fsGjjpUDC7b6aitgtB0czH3G9IasDdNuR2wcST7h6aZWI5N6BgL8s="
+    "2018-07-31T15:25:04-00:00"
+    "rsapss-sha256=1w0QlrT3Syjt1k98mhXbawzuSviSfpwDe1oEiUMZiSDyjkFCUrVzW2IY9vLgL+LGlGW+V59UwjaU7WDkCQ+bznsSBKyaZrjQZ6x5+ssuzaANvZwtrPKP5EVowfK/UAADSHgtzibedtk4Tfe6/dx9SNnxDt0Nv5B7NPN88V7852oKdUa1c59pJJeSCAo0tzRiiVDVoaAFf+P3ofwxc9fgIJggzP+jl3dhs1yJzFTkSKBcPQVVwAFwan9u6a4b24RqF1KHsGt1G1D2ZYmN8ShlYlHzzOr4msOhlOlyv0dhdhqzBE2s7vODEBZgq1NRqSvx5Hpc3bDEoY9YbFLiJFlWFHxZnLMrYDIMP0tZADCdaln5lqruuvSyyxOia8XLAGTCie2oz6TVI1bDiW/AdPik57kSMQ22fpCssdaqYzqiVQ2jmmyCc8Uzl617CFU9dfnCRMHN/JAkz6ENU3ijyvpcPn9CL0oEuWoHkcXV544V8J2JtBRrmBRb8Zcz6+TWNIppkG37Q5MFn3NdjPNgIDpze6yXZcSMc4Zr6S4ok4QVvf0Ehvb5jkYQqzyhh3HlWlxvkOAvjFpQL4QRvy/AE3vAIgq6aMIEYzgMffzT0IsKVPcriCkakLIgbOL/R9WWoRRpyw9lAwupgxHnhNmmp18EdMrmbabXwTNA+Ch5J6jYPTA="
   ]
 ]

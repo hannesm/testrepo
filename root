@@ -4,34 +4,24 @@ signed: [
   [
     roles
     [
-      [
-        root
-        (1
-        [
-          [
-            rootA
-            "sha256=5a148d3977cb03dbeaeb99fa7033b5c7a43c8c7ee1114fee0c22fada2f7c9687"
-            0x0
-          ]
-        ])
-      ]
+      [root rootA]
       [
         janitor
         (2
         [
           [
             j1
-            "sha256=01a205ebf55fe81be2291102bd177abb3312fc8c655c47ef96fac316e276226c"
+            "sha256=2ad4be04dc2975ffb535051182bfd3b50bc335eca8217bee157f28459794d0df"
             0x0
           ]
           [
             j2
-            "sha256=a0ed2dcec72d93b1a9ec9e324da95290afd44b652f1e5cf6974e6633e41045fc"
+            "sha256=bc89a93e3864fae4b8e854a9bdc321f7e7ed773847c8faf96f49bc28ec87063b"
             0x0
           ]
           [
             j3
-            "sha256=492390932f7d7d1296f06d3600cb6c394f2c725c12c7ddcfd8af178683e5b0bd"
+            "sha256=4afb0d4da44350852482f423fe72f5599c1072c6970dc05a151dfeab3efc3d9d"
             0x0
           ]
         ])
@@ -72,7 +62,7 @@ rK/UN2i03+AgTlHF8PLSylINAR3CmxMhmhxMzMIi/bw1REslAIuVY93lfaIpUGt9
 signatures: [
   [
     rootA
-    "2018-07-27T18:11:23-00:00"
-    "rsapss-sha256=Ha3FMBY0Bs3mYskvEq1upR/kvML2kxNJ+twM6GaGf6mhgAjTO65DNW5H0TYn5izA66GQIe90ALPBNeQL9qe8hq0vWe+pd7+ttuQFqbcqIo0B+zJQ/QfCJ5L/yjBO+8uiFPmY2UW+StSl0REyFzFy3c+ME0wo9aGPqQ4mdkX1p846tTHSYW4UCtuqgGlvJ2lJKwOU4bN0JLaY4Vp02uerSjYUtrZ/vN8OcGMnrbyXnmhsKDj8LdJNGiJUat0PRac+/n/ISL0AqTKGc1IRnZjrtTm8Blmy9TS2+/moNtlEdA8CdAvqfPPlT8wR+87qLiWqe+OS6GILfsDTFjt75yhuGzsvxrfElUzptOgv2h63ewHu1p++UmQ8DEc8FmDz03UDHTyXvF8MBWjzIeApKeG01gaVWRMjCtpakfQe8quUvDQreOU8uQW4BYf5ikqtyqOXiJA9FTv83VuXg2+NuLWAKFLJDiJ11okueqjgntEXbHiMI5a4EQ64LYSzncymsvKalKn73gC3nsHhwLx3AoW628Il5/PFm/NuYDhbaie6Cwn+xYZLEGkeb6HQ3SJCBjTPgwADNpDdl4Iy8pqdRbmEqnmFYBMWepXhSaXiOBULCTleblVmPqR8pjSkmAbjBGlEnKFKbta1E2e5upTzHOXEqv+0g5QICpOa6ESGjfga96E="
+    "2018-07-31T15:23:01-00:00"
+    "rsapss-sha256=BrMjFrhpN/Ye2VA6/hKN1F1raulmUJnccWDpF/AzK+ZZSVnmRA9HCX6dZ7Jd+LMOT5A2v9AP5lXH7tdDV8SupPudo9RLEh55kW3btndM6uUfU31BitftnnQ8ivNTsF7wiZmPCOXVmtACPJJzOVTd97prhtrbaSUmqBB0JwYPUZOP0p2tYXQ4dLzEyKqhkWypHHWbVL6ul7bYYfeEL1IRnUtvi1qYP2RPOJ4gxxTca1q6dARRTgbHeWCiIHKbNptOAZ7LluYHn91see0/Us174XxluaULXQcljT+rje7CtbxXCz4yDSw8Ymg8RpG65UfJA6DqNYeBBjHcxW8V1Qi1M3PFhrOHghKJ8yzoBAqwJwUmccfwFA1N2/Vq+DLH6hZZkGW07e1COUwaoLtbnUd3V7wXRdk6MTS58OmYxW0MZVy4Jzgaphn/zotlvcWyfCus2CAGOa9ulOXJ8RH7X3l/k/QjgLHgfLQnRqcWvyA87oQl8uVcXhrqIipJN3q7ItfA1qAZgV7aS941J1q4vh4t2EgDdLCXLaOo3tFU36IsAILDnb0YhvCMti/LpRe/UMOVDucwDbEiNLim10NCx3U8dl6xkDL727gm9lEIs3C7kQGk2LeVI+jsF1fQ7rIwmTAiPbfsBWu7OJRegfETfQY+AXLHkb63imp7JjVbrtI4JxU="
   ]
 ]
