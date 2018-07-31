@@ -1,0 +1,17 @@
+opam-version: "2.0"
+maintainer: "Hannes Mehnert <hannes@mehnert.org>"
+authors: ["Hannes Mehnert <hannes@mehnert.org>"]
+homepage: "https://github.com/hannesm/testrepo"
+bug-reports: "https://github.com/hannesm/testrepo/issues"
+dev-repo: "https://github.com/hannesm/testrepo.git"
+license: "ISC"
+
+url {
+  archive: "https://github.com/hannesm/arp/releases/download/0.1.1/arp-0.1.1.tbz"
+  checksum: "sha256=9ec5481542f9a21b92894c08377dab0f21b8b26c8f6baffd4cbc062b408746d0"
+}
+
+depends: [
+]
+
+build: [ "echo" "foobar" ]
