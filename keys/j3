@@ -63,14 +63,30 @@ Av4JHD7SvPygvVEjYIrK1r0CAwEAAQ==
     ]
   ]
   [epoch 0x0]
-  [delegations []]
+  [
+    delegations
+    [
+      [
+        [
+          valid
+          [
+            foobar
+            "sha256=6357c5f7f33919bfccc4c0991ae149a1982ef6970cdeb86f7cf8a27d9c3a9cb3"
+            0x0
+          ]
+        ]
+        [terminating "true"]
+        [paths ["foobar"]]
+      ]
+    ]
+  ]
   [created "2018-07-27T12:14:12-00:00"]
   [counter 0x1]
 ]
 signatures: [
   [
     j3
-    "2018-07-31T18:33:17-00:00"
-    "rsapss-sha256=Jwf4CDp/Q7c41YAZ2IgLJJ8AK9Y9ApvczARG0FRTOKTvU41HQn2BBnOc+Hg+Fa8Mcf2EZeexDeMl5MIgnMRezIt6pMOnleItAO68ObbkFTIxa1WhPQ/EpmLaXKJI4K0uVJ81Rv4915VkWJZ/NXFQNg3YWUs3+E8WKR+8ga04KTpUF7GzWa61ofZ54h4cYDWhP1BFuIGI43nq8aFhCZmTYVn/hDV9009HS1se1cfRWEABrD6tEvJopOfMPmhLXM2A9DnPWGRW0uMc6Rmt/dLP9k76WKOuXlQrpFsvBp++R4ZNw4pmQRfl394SHeqe42xtv5+jTyPvoP1Rj931uOU9SDRybNgyQW4Y+5OqW6srMwvj+obvgcCjvyNg6Am8zbATZQ3fySf6FqOcUc7/d6ymH7ycAzmDktj27Mg15C5iWdDWFUZdTuYM5cWCmu6J9hWV5D1dbKmFZxx9IlRQmvzdbsiUvG7WZJR2DlGLXWkozNA1bTVkXSWudnuNKctudKZPVbvlJBA9/yf9SQ3t3DyzDcOFcH/jCWGpSBE9kVVUyqV7pWuPp+/JqNQZ9h+r77w3nb6DFIp8PLq+qDjsYU1vDLWRIm7rDWucccEOnsKppLShTwJWBy+cE6WavpZdmGa+s9Df0V11kUgjwT+ckpuY1+7pHdMJV+pyyPi9zYr+biI="
+    "2018-08-01T19:08:15-00:00"
+    "rsapss-sha256=CzXPWKu3hM8d1XaoVl14zoTwUQlA0pDIMnjZZE67rKV5WzRv+ppuapmm2buEHBhsb+8vpGtWFpSs9gyHMn+HpgUdSsWaXGR1Iq5hJe2Y1U+cFoHvCH0l91BxkBf2QOobP2Zr3CV2ukXt2SREnmaAo/Vf6BZhES9Y0/eQZD+kumJkcM7pZYr5llXSWdaf2JrIq7tyLUNTCX5DWQCj0AqvjP1AZQARrd48a161Tp70kWceNYGHxzPujsEYuyXy1/wv6wJalCyj0gli/TB1a+Yt0FunX7PF3+vLx14H1PCA6NrR6kohHLEwpbIQ7yV6GIF0c0IUFCw9nneE4MxltBJZhd6fIb9QZl/miDg6oW5YFje9aIoHggrgZ9mGvf1FrBN6x47ZuefSZh3hWkcli2Ukgrgk24HSxbc97QF4PTE6QkRpfLuPcJS4TmuEdc18OGrAtp1Sqv4c3Zta52mtkfwxfMc2llUaXHZpXTe4QtryuH9gLGW/EwdLLMtIgyMmStp07cf45SsUkbriMwEw52y1vtaDymCHOfMdScpmZzAlkSTHadqeQDScAKjdg4+dDJvkPcleVSdlbg4GMEwIRaG7eX84QtxqBjn1mrWKh2+UcTYCzQDnWP4RqnLN8TL9wCb89ZydsId/7nL3WKOrKsJ/i7UWud6RBmu0Ab6pCMg9Sf8="
   ]
 ]

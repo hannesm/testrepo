@@ -1,10 +1,10 @@
 signed: [
   [version 1]
+  [valid rootA]
   [typ root]
   [
     roles
     [
-      [root rootA]
       [
         janitor
         (2
@@ -62,7 +62,7 @@ rK/UN2i03+AgTlHF8PLSylINAR3CmxMhmhxMzMIi/bw1REslAIuVY93lfaIpUGt9
 signatures: [
   [
     rootA
-    "2018-07-31T15:23:01-00:00"
-    "rsapss-sha256=BrMjFrhpN/Ye2VA6/hKN1F1raulmUJnccWDpF/AzK+ZZSVnmRA9HCX6dZ7Jd+LMOT5A2v9AP5lXH7tdDV8SupPudo9RLEh55kW3btndM6uUfU31BitftnnQ8ivNTsF7wiZmPCOXVmtACPJJzOVTd97prhtrbaSUmqBB0JwYPUZOP0p2tYXQ4dLzEyKqhkWypHHWbVL6ul7bYYfeEL1IRnUtvi1qYP2RPOJ4gxxTca1q6dARRTgbHeWCiIHKbNptOAZ7LluYHn91see0/Us174XxluaULXQcljT+rje7CtbxXCz4yDSw8Ymg8RpG65UfJA6DqNYeBBjHcxW8V1Qi1M3PFhrOHghKJ8yzoBAqwJwUmccfwFA1N2/Vq+DLH6hZZkGW07e1COUwaoLtbnUd3V7wXRdk6MTS58OmYxW0MZVy4Jzgaphn/zotlvcWyfCus2CAGOa9ulOXJ8RH7X3l/k/QjgLHgfLQnRqcWvyA87oQl8uVcXhrqIipJN3q7ItfA1qAZgV7aS941J1q4vh4t2EgDdLCXLaOo3tFU36IsAILDnb0YhvCMti/LpRe/UMOVDucwDbEiNLim10NCx3U8dl6xkDL727gm9lEIs3C7kQGk2LeVI+jsF1fQ7rIwmTAiPbfsBWu7OJRegfETfQY+AXLHkb63imp7JjVbrtI4JxU="
+    "2018-08-01T18:17:43-00:00"
+    "rsapss-sha256=fNU2HahX872gcC6cCVo8nJTcZug48AjqgkL+rftVuIwKrJXCVYIM0yl6gglwmHt8sleCfqehNylt6jKJ/OZIt9tgSZcljrg1asxn34RckA2YPtfCAuMvOAqCX+rc5ab9xDf08kO/C21MlTEF3N6sxXJTLmogLVpFEHsQ717MNSl/M2VJDG/u2ZzXgSwxEfFN+DZ81xcU23VwCSOSzWCVm2Vwo+4k6eTae0VWp312L5tqOoqF7gy6AJnBnNt2ODm+UO8QBvaeiph/MDK9tfL7DBMbF1s54KgcbJcvkt1QAHyfjS9XwfUDK+FIaXLftEEL0VZpaoTQXRZ2dTxK2vTrLQDERQrRsQwPk2cEqt44RmcWdeVY7othJ7ZvyyHNJmuSZH6nUzVPTu7lA6xW4RO5aXT0gIqL28HqY5XYwa2FhDfVYzy+gK1E1onQ3u8VbZyTesaEMjpy00dL5ximRyXrJZk3HXV4mj3MXt4Uj4GVYzdmCRdz57G9+mqby3i1BgCTydbQudk8Zz0uyHcsday3N+sKdrhIMstSNccY1AbIIXUMSwDXyve8C4rO1tX3Ki/p2RJ9aTD+zgYIKeMmiDoZnB7e1ID7AIctAS/2r4eFWR5MLy2W+ctRzK1kisJafTMc+qkgrcQv8NmnR5ueJ/1u/MAjzTDVdVoHEPyVn6fjO+g="
   ]
 ]

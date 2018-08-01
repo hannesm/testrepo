@@ -19,11 +19,10 @@ You can use `conex_verify_openssl` instead of `nocrypto`, add `-v` flags.  This
 will only be used for repositories which have trust anchors and a quorum
 configured.  Update of the default `opam-repository` will not be affected.
 
-To add this repository with a quorum of 2, you have to type:
+To add this repository with a quorum of 1, you have to type:
 
-TODO
 ```
-opam repo add conex-test https://github.com/hannesm/testrepo.git 2 p3CRLizMuEu6j1rwwv2gt8s3nsrefJjPKYY8vzqJnjU= iTX++W2wO2SobN8nN+TobSbZl2JRS4Z+v4RSdP5MrlY=
+opam repo add conex-test https://github.com/hannesm/testrepo.git 1 sha256=5a148d3977cb03dbeaeb99fa7033b5c7a43c8c7ee1114fee0c22fada2f7c9687
 ```
 
 Vary the quorum or the fingerprints to see verification failures.
@@ -51,8 +50,9 @@ $ conex_key --id j2
 $ conex_key --id j3
 
 # root
-$ conex_root edit TODO: should be create!
-# manually modify root (roles: root / janitor; keys: root key)
+$ conex_root create
+$ conex_key --id rootA --pub
+# manually modify root (valid: rootA; janitor role; keys: root key)
 $ conex_root sign --id rootA
 
 # targets (janitor) - repeat for j2 and j3
@@ -66,6 +66,6 @@ $ conex_targets sign --id j1
 Testing of `conex_verify`:
 
 ```
-$ conex_verify_nocrypto -v --dir `pwd` -t sha256=5a148d3977cb03dbeaeb99fa7033b5c7a43c8c7ee1114fee0c22fada2f7c9687
-$ conex_verify_openssl -v --dir `pwd` -t sha256=5a148d3977cb03dbeaeb99fa7033b5c7a43c8c7ee1114fee0c22fada2f7c9687
+$ conex_verify_nocrypto -v --dir `pwd` -t sha256=3aedc7043e771efc42a3c3e6b60fa6baeb2c26c2d57f994c632bae98a09af701
+$ conex_verify_openssl -v --dir `pwd` -t sha256=3aedc7043e771efc42a3c3e6b60fa6baeb2c26c2d57f994c632bae98a09af701
 ```
