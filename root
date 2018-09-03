@@ -6,21 +6,21 @@ signed: [
     roles
     [
       [
-        janitor
+        maintainer
         (2
         [
           [
-            j1
+            m1
             "sha256=2ad4be04dc2975ffb535051182bfd3b50bc335eca8217bee157f28459794d0df"
             0x0
           ]
           [
-            j2
+            m2
             "sha256=bc89a93e3864fae4b8e854a9bdc321f7e7ed773847c8faf96f49bc28ec87063b"
             0x0
           ]
           [
-            j3
+            m3
             "sha256=4afb0d4da44350852482f423fe72f5599c1072c6970dc05a151dfeab3efc3d9d"
             0x0
           ]
@@ -57,12 +57,12 @@ rK/UN2i03+AgTlHF8PLSylINAR3CmxMhmhxMzMIi/bw1REslAIuVY93lfaIpUGt9
   [epoch 0x0]
   [datadir "packages"]
   [created "2018-07-27T11:26:24-00:00"]
-  [counter 0x5]
+  [counter 0x6]
 ]
 signatures: [
   [
     rootA
-    "2018-08-01T18:17:43-00:00"
-    "rsapss-sha256=fNU2HahX872gcC6cCVo8nJTcZug48AjqgkL+rftVuIwKrJXCVYIM0yl6gglwmHt8sleCfqehNylt6jKJ/OZIt9tgSZcljrg1asxn34RckA2YPtfCAuMvOAqCX+rc5ab9xDf08kO/C21MlTEF3N6sxXJTLmogLVpFEHsQ717MNSl/M2VJDG/u2ZzXgSwxEfFN+DZ81xcU23VwCSOSzWCVm2Vwo+4k6eTae0VWp312L5tqOoqF7gy6AJnBnNt2ODm+UO8QBvaeiph/MDK9tfL7DBMbF1s54KgcbJcvkt1QAHyfjS9XwfUDK+FIaXLftEEL0VZpaoTQXRZ2dTxK2vTrLQDERQrRsQwPk2cEqt44RmcWdeVY7othJ7ZvyyHNJmuSZH6nUzVPTu7lA6xW4RO5aXT0gIqL28HqY5XYwa2FhDfVYzy+gK1E1onQ3u8VbZyTesaEMjpy00dL5ximRyXrJZk3HXV4mj3MXt4Uj4GVYzdmCRdz57G9+mqby3i1BgCTydbQudk8Zz0uyHcsday3N+sKdrhIMstSNccY1AbIIXUMSwDXyve8C4rO1tX3Ki/p2RJ9aTD+zgYIKeMmiDoZnB7e1ID7AIctAS/2r4eFWR5MLy2W+ctRzK1kisJafTMc+qkgrcQv8NmnR5ueJ/1u/MAjzTDVdVoHEPyVn6fjO+g="
+    "2018-09-03T15:04:28-00:00"
+    "rsapss-sha256=iYqQg4T/vIgfCRzq3EGGhewtsCyn+Mp3Y+o3qTtKAnXydr5iSYBoyhaVslYiPZe1+s5TTnUHuV4DwKlW5VyMnFv1QLZiyDi3tvnSJkjhsNN3hmqSTSLgIxFZuiRElPMpGmR0AraX+mIyqbOT1hk7wKmcfmgc9A9Zrp01bZY342mO0F66sSYhSk6JdNxJthCJfJNDv7B3La+Du0vKf3RNQrs307KyTyF33aNr2fkrZqdevXBPiqKhyBVHY8PIr+5J6F5SDICIZOWXJLpNM4za5ICfFKKJjcPePVQvm4beRFqZdNIKs64IEfG+cMw0xJkvKzd0bw2WSDxJEenP5U3rmgvrXubuDOhSGWPxvzaOwgjA7VZDjGez/TP4uS2MZNdvBX1Nk+3fTHpKA4YnjVStR/1boiEzt4B2NoqbdQbxjdICw8zyP6acl/cn5UD+DmkHPcNMopjYiWDgOev6mT8wSNbV5ov26dNeMArNcboeuc64tVY/79jFJSqKZMADZ1GhmCKmaXMO37dmzqfHiB7M3HhQbTrt5Csu6W7iDrYg9cd8XbreClSaFVJqNvgrq3hVYS5MCYg2bRkEY3w8OMEjzBYlEul+nQqcsnl6dy8E5U/5hCpcpwlvbcBfiTKB/pjNgFByzAUHybn7xwvjpPj8axcdw88O0zorzpNgywtCLJ4="
   ]
 ]

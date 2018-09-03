@@ -12,6 +12,7 @@ repository-validation-command: [
   "--dir=%{dir}%" { ! incremental }
   "--patch=%{patch}%" { incremental }
   "--incremental" { incremental }
+  "--no-opam"
 ]
 ```
 
@@ -29,9 +30,9 @@ Vary the quorum or the fingerprints to see verification failures.
 
 ## Private keys
 
-For janitor `j1`, janitor `j2`, and janitor `j3` are help for test purposes in
-`priv`.  Do not use these private keys elsewhere, generate your own instead.  The
-`rootA` key is also in `priv`.
+For maintainer `m1`, maintainer `m2`, and maintainer `m3` are help for test
+purposes in `priv`.  Do not use these private keys elsewhere, generate your own
+instead.  The `rootA` key is also in `priv`.
 
 If you clone this repository and `cp priv/* ~/.conex/`, you'll be able to sign
 updates.
@@ -52,15 +53,15 @@ $ conex_key --id j3
 # root
 $ conex_root create
 $ conex_key --id rootA --pub
-# manually modify root (valid: rootA; janitor role; keys: root key)
+# manually modify root (valid: rootA; maintainer role; keys: root key)
 $ conex_root sign --id rootA
 
-# targets (janitor) - repeat for j2 and j3
-$ conex_targets create --id j1
+# targets (maintainer) - repeat for m2 and m3
+$ conex_targets create --id m1
 # collect targets
 $ conex_targets compute --pkg foo
 # sign targets
-$ conex_targets sign --id j1
+$ conex_targets sign --id m1
 ```
 
 Testing of `conex_verify`:

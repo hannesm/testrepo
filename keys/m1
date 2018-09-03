@@ -1,6 +1,6 @@
 signed: [
   [version 0]
-  [valid j1]
+  [valid m1]
   [typ targets]
   [
     targets
@@ -27,12 +27,12 @@ signed: [
       ]
     ]
   ]
-  [name "j1"]
+  [name "m1"]
   [
     keys
     [
       [
-        j1
+        m1
         "2018-07-26T13:46:51Z"
         """
 rsa=-----BEGIN PUBLIC KEY-----
@@ -71,12 +71,12 @@ jLaeCPGgrC6MF7G88rsPwjECAwEAAQ==
     ]
   ]
   [created "2018-07-27T11:54:54-00:00"]
-  [counter 0x1]
+  [counter 0x2]
 ]
 signatures: [
   [
-    j1
-    "2018-08-01T19:08:14-00:00"
-    "rsapss-sha256=e6rcVJTt7SbpjBt5wl/ZW4dyyylVDwEtfmZGh/fy2X+vb4OQaUyJkWLnZX9M84zAAnCDOA5nyVN+Tp8ZSu0EmFO1QYo0Lwnv4hncuvlVoQAl5SrVvruSA6yY52li5ceKamhpVPd5kmxAsw8todueNWp6W3B3HfAQsnm52QyzyrwSBl9/9MvFdlNgIvoa4nJDoGLv4NKwa5Zbu43l0y1ESbwg2jj6rjkyJMHBdNDG4/uZViwFK2hsyR1Jjzucme75coUTjW/2yr7GvdfQZegF8xJhquHs+zbvZ/MgsD1YhxmDvkP62KqjAcvbzq91J+5wLmgE2dq+vfHGPxtFUkr3XVl0ZNa6kFSnbVa0hKewuTXK7jnz9CsUtcwO+AHZnS0DRtzbM4UHKBz+KXsMigSci+aNuaDLc6+gi4GyWe7jGwmTsoT719ZG/Ywr3DSC3wUSugVAiq1zGo4kXoC/YaGVvSyD906XLHNFv3n5f+QiCzIK4ZOcCyoHn9Dg9f1VM7G4+/iZwUDxD98Oxbd7asoPhlRufd4ZJ2AWYpyedjaqe85OEBzrhX4ZTkArmWOmOzmPokCZDWTx5LDcE2jLiUu4hjq/yeu+ZJ+V4IBPtAL2WP5JbECQQbnx5OwUFPjGgWpnb5WIppqT4m+IuMb7fUlimfVybsyaW29TiGCoA9ysKv4="
+    m1
+    "2018-09-03T15:51:40-00:00"
+    "rsapss-sha256=Dfg3RbAMWapCBwgvFr/x3GKLAyuWVyU+lvGBjdeLx5Y/+SwUiz2pYutoKzdQZhgd9nMoOCi2hICKGa02T1bRp0woAdDGMvAvIiuIBEYpsI5D7AEQoiyz8B13/Oh4QOTg5hBzoNG39DOUwmwipKng5OUltEyimhADouVFIW2H6sb7j5jGAg195quF15NuDFuZGuRSIu68hYq82Nbr9WGIF7bQYhhXEqp5Y9x5DmCaKVL6bzlq1mlK7tq6YFA4l2ygVjdT2PwCrGCzQXTBx5WT15qylFcaFvB8P5cvwEs/fv/4dPOc0FF9SCE/qPPbU0LDGmmmX99d5s18FaTCoNNbD8cvFGy0RslchRNZ1trGI+ZJ5L5GCyaQfBz3SsUFhfG5tErqf6FoW810bOF8+vwp+Z+tvON4f8MZ+YLLTWsNf0/ERQZk7osqJoCNMo4KLhA+CivuNuA/scsaBQe7YlhwzvspjVHEihCFWpkLhAD97OpfSvf8keF+popA7vUe394Tf0tfnXa59LwTfaz2PrdvF+GYpTw8DNoXpa193KrdReNpglOChJo10RKuOmixo4bqMaxGwUj6IvZrG7sdnNHKlRlM8yGKsHyD6/qsRa77BST2lIQVRyOVNCDcUr8J6LV6DRlj63OKLOXHKJZ/uRnAWhNj3MUMXotrcNiOfT/XeIc="
   ]
 ]
