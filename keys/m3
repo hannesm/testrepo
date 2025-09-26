@@ -6,28 +6,18 @@ signed: [
     targets
     [
       [
-        [size 0x4]
-        [filename "bar/second"]
+        [size 0x1FF]
+        [filename "packages/foo/foo.1.0.0/opam"]
         [
           digest
           [
-            "sha256=7d865e959b2466918c9863afca942d0fb89d7c9ac0c99bafc3749504ded97730"
-          ]
-        ]
-      ]
-      [
-        [size 0x4]
-        [filename "bar/first"]
-        [
-          digest
-          [
-            "sha256=b5bb9d8014a0f9b1d61e21e796d78dccdf1352f23cd32812f4850b878ae4944c"
+            "sha256=ccea69740e61ce074ed53019ac0dcde3c9602b00bdf21b12c0e53be2328f9b52"
           ]
         ]
       ]
       [
         [size 0x1FF]
-        [filename "foo/foo.1.0.0/opam"]
+        [filename "packages/baz/opam"]
         [
           digest
           [
@@ -44,7 +34,7 @@ signed: [
       [
         m3
         "2018-07-27T12:13:03Z"
-        """
+        """\
 rsa=-----BEGIN PUBLIC KEY-----
 MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA2gXi/mkaaGmHj6klcPrm
 X7Q4rccEqF4IWsl9B7szqTExrDW6j+MnSHaTGuzLdQEZLcnXr+NpnSQr7Kw+eyWs
@@ -81,12 +71,12 @@ Av4JHD7SvPygvVEjYIrK1r0CAwEAAQ==
     ]
   ]
   [created "2018-07-27T12:14:12-00:00"]
-  [counter 0x2]
+  [counter 0x3]
 ]
 signatures: [
   [
     m3
-    "2018-09-03T15:51:45-00:00"
-    "rsapss-sha256=dzxNIpP0j0drWyiSupgNSGbwKUf6/6/sN5BmS2qOI+e0uA5rJi2mhkRw5wsJo2EY++aDoOc2/FAVzjF4ra+J7C09ZGfk5Qch5PX3e3pXu/5IoMb9IEFK5MlJDl3QlXR/zYQ4lQaPTsoRk/e61tq3w9a+NltAH6cGRe7/dBV8wZgXaYND7e8+R8VH+SW9yf/wWhNuDChS6Vv+gO1ZdC2jPRZKfJm0lZs1Pnq0Q2gwylBVB5tNqEYdmELi24Kit/YARY772+8llAJkZdtRGoydMaDVVahHcTWhyMXPw0Jg1Wu8FtELyqLuZO4x+AmoSks4nA7+KC4ii7pfyGBrzso8nHQIgBfhshw/EI7oWDkHTmL+Pwcuyn+M6bj7UKmY3Q36nOJHwp44yYgRgPF+LT0XM6ca10XZJDVdQmdeBLKUFqNlc7Bha7Vc6yp08xubaOuHgFbWDko/Qv1nLKbzvVPzTvr0JkcesjPtXlpHk652ZmJ/xcRphNSScSFvGP2zg/fwQp4cfmUZqH0Zpa6qBwO4Vlwm0QnAhhfJuKt8nMqbm5J0dttOgGsWCse1bmzKUvd6Fa8ejkeyKlc3SzgCUm4BozXARn90aKMCykR7epcTt20NoPhZ/E7d6Zjxh9c4vQvqDF+gxu9hVPy22+d88X4jRalKxBOiyrBJr3+7ZsUXMvQ="
+    "2025-09-26T12:54:01Z"
+    "rsapss-sha256=m0d+Hu/XGhmmxGh37fjJazcmjEMOB7rXKEASgWb7QWJzbuD5G7cO/yld9HXH6ge/3MN4bhat2Nf07UBOZvP31E8zHl5lcIe2xhD2EMmvG3D3fidnP8QRSiSK1/v0fO/WC+4VvX5HW5i2xB02jnfpIJG1j6XX8wNO5r7dUQni3zCa6ye0r0UpeQQKYfjI43yiNnOLfZMg+GqSBEIq1Nt6tlLJfuuBdofC066UJQGv9VuvorqpCcgnxgiyHPi/veBmeUNpn6utADR2F1w0uOhJQzdQDuc7QwWoiKTOTylvMS6zdD3uXQ9g5us/KApQChqFi5AXDToaXeWfrKQ2KkkbPVOLCvPuZ8nrUxu6k6ehtH9zSzkFAlIiEWhGvraN7YbxJQS8ZIofBJ+OkvL2N4dgHe3xzUAZZI0lJ2FvklRErZwrisYPquQ32QH6QLt00UWyp2Z6xoSfoeIpiJB32YAJLLzmYp7xzaK1LLoCJGt1fP14n6XaxnmoSAmI8VIDTKVSx/k0XHKk5aG4W2A2312ysSxhGj+N5tC2qtfDXyUfZqX2HqkY2M811y3V5wB7MH8MS+MUeg+VTgG/vhQNFnFZOREXbm0ICJNQ4Q3j+CZUWAj67skHjI8sKJnKDerIRgRdMnhBMAEj33kzADBa9tMLgu9vK2iBKNSqGt5xoNmtMsw="
   ]
 ]

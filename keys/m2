@@ -7,7 +7,7 @@ signed: [
     [
       [
         [size 0x1FF]
-        [filename "baz/opam"]
+        [filename "packages/foo/foo.1.0.0/opam"]
         [
           digest
           [
@@ -16,22 +16,12 @@ signed: [
         ]
       ]
       [
-        [size 0x4]
-        [filename "bar/first"]
+        [size 0x1FF]
+        [filename "packages/baz/opam"]
         [
           digest
           [
-            "sha256=b5bb9d8014a0f9b1d61e21e796d78dccdf1352f23cd32812f4850b878ae4944c"
-          ]
-        ]
-      ]
-      [
-        [size 0x4]
-        [filename "bar/second"]
-        [
-          digest
-          [
-            "sha256=7d865e959b2466918c9863afca942d0fb89d7c9ac0c99bafc3749504ded97730"
+            "sha256=ccea69740e61ce074ed53019ac0dcde3c9602b00bdf21b12c0e53be2328f9b52"
           ]
         ]
       ]
@@ -44,7 +34,7 @@ signed: [
       [
         m2
         "2018-07-27T12:12:33Z"
-        """
+        """\
 rsa=-----BEGIN PUBLIC KEY-----
 MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAmNGiJ0vupaZBUNFYCSvE
 hCDzr4si/BWaKOlb8Ry2O94s+u5Zn+PWk9+rKs03p+WyZqOZ6f3RJdfjhXqAuaas
@@ -65,12 +55,12 @@ vPXjhyO8CX5Txscw0zoP228CAwEAAQ==
   [epoch 0x0]
   [delegations []]
   [created "2018-07-27T12:14:10-00:00"]
-  [counter 0x2]
+  [counter 0x3]
 ]
 signatures: [
   [
     m2
-    "2018-09-03T15:51:43-00:00"
-    "rsapss-sha256=ExDaCaPfbIsLdwgxUgLBn5VGl04DUFq2B/8SugXjB1pu5/r+KNlis5EstsdZxumgI6sIi85mRqd/Vhjqi+0KIbqQHzkblzq50f5qCaJZ4lT02N/J8z+3FRYXUvWjT3WAj0kkgON/EZAW9jr8JvabLVsw7bdjbVjMOnH0ma9NlJUNSwqtVwkMRRVCcdHgndHvELY1IF8or+JAeUfMg2BFKtrD6ofaui1kbW5M7Ub3ihUzg4r42h64cdq+WoQiLJfl2OlimnbFtJfrwV8GcZzBYC/T1Ui43utJGF2nZSFKksFnH/3wVo90Vgm3W1i5pOeDdDiFJSfy42ZC8Rmge2JPl16XJCbmk2XNDesMWXvOQCFvJnXvBL7+iLDwgEXi6aIKc2/nV2ol0A18Mpyb7DNM333ScAoHxmCivtxaLTqKVlO/neMetwsp+TOoM/2p/oqi70fxGkA48IH+vYT/A4MXBlbgqCnEQnnCGvQ4rRDYrkf8qD9UU0DbS9QuxEIMUtUJTOypUXbulItO4HTt5lG/vVzacsPYNYjjczcH+OKfOvP+KtdEsVDts0tp9CShIfAHknBHXBzVM/7L/WGJQ+d8fNPbsJLontkZhIllt/U2456IR83FmHgX7w+kfkjaNb3YTnaShdSClZExURlo4L/3pwq9Vk5BS8NMx8oXgI+1hA8="
+    "2025-09-26T12:54:00Z"
+    "rsapss-sha256=QVXO65xmcu+Bel/yjH8DoTOsWtvN2gfYmvxbFGMdsQmoWB+O+nTFTwV9RV4k62V9fvjlhNmf9sOrpvhBuJ6tdFFUXZoHkB5HUkKAuk1csGJHjEEBrRkzYTrwr7h+fgkUfKZX9NwdxqVpdLMC9NorTkDypIiPUJylyCvUC1RUd9V+pKGsluIbB8qCgSGMcLnBgqoJik5LPD/nx9DwQLdH5CS6ZfhugCbMMrr313Srog/7wl+Otjc+pNnKmWTomXXjtl7S/HSIvtVy8IATrD5IabUyl9Gc4s4r3FktSiXJKrPuaD4kdR1oPY/ELzc5Qrr4Qlu5RMz37k2LWQA4zf18arLJJPf2n0TEPiifd/ak9XW1YAbeg7WI596p7LgPbA+KsgZ+xcpRqdvyQlt91gBuLEtgzhd01VKme+q6gWvTFV+lzRfamiJJkfB3NqP3rbKRSGtzJZ9HtMXKyZvYR9nK3M2HMHVB2iw9622SC75B4EjI0rugk1FB2It4199U5DYEPDdRpcS7DEze2RIG1vI+88OqrsY/69gZHM0sYvbXlm3v0ACUcOnKMHz5uyXZXiGn8maOexEf5oEVkWHivGpcIhQwx3ISPpdaI1tRyJ6/u8QGd58cgNxBxRd1iU9yTSMz+X4WtsKLFkddPXl//DfeBAkdRax1fkTt7Ah4iZ3Shig="
   ]
 ]

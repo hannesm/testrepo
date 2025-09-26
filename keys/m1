@@ -7,7 +7,7 @@ signed: [
     [
       [
         [size 0x1FF]
-        [filename "foo/foo.1.0.0/opam"]
+        [filename "packages/foo/foo.1.0.0/opam"]
         [
           digest
           [
@@ -17,7 +17,7 @@ signed: [
       ]
       [
         [size 0x1FF]
-        [filename "baz/opam"]
+        [filename "packages/baz/opam"]
         [
           digest
           [
@@ -34,7 +34,7 @@ signed: [
       [
         m1
         "2018-07-26T13:46:51Z"
-        """
+        """\
 rsa=-----BEGIN PUBLIC KEY-----
 MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA4Zq//nRd4hK7z1oOnRN6
 1yPLg7ZtQeKY3oVVGtJuNZN0X05ixXzie1FeilehZjYhkKC2PEyA7ciEfx4WYQJc
@@ -71,12 +71,12 @@ jLaeCPGgrC6MF7G88rsPwjECAwEAAQ==
     ]
   ]
   [created "2018-07-27T11:54:54-00:00"]
-  [counter 0x2]
+  [counter 0x3]
 ]
 signatures: [
   [
     m1
-    "2018-09-03T15:51:40-00:00"
-    "rsapss-sha256=Dfg3RbAMWapCBwgvFr/x3GKLAyuWVyU+lvGBjdeLx5Y/+SwUiz2pYutoKzdQZhgd9nMoOCi2hICKGa02T1bRp0woAdDGMvAvIiuIBEYpsI5D7AEQoiyz8B13/Oh4QOTg5hBzoNG39DOUwmwipKng5OUltEyimhADouVFIW2H6sb7j5jGAg195quF15NuDFuZGuRSIu68hYq82Nbr9WGIF7bQYhhXEqp5Y9x5DmCaKVL6bzlq1mlK7tq6YFA4l2ygVjdT2PwCrGCzQXTBx5WT15qylFcaFvB8P5cvwEs/fv/4dPOc0FF9SCE/qPPbU0LDGmmmX99d5s18FaTCoNNbD8cvFGy0RslchRNZ1trGI+ZJ5L5GCyaQfBz3SsUFhfG5tErqf6FoW810bOF8+vwp+Z+tvON4f8MZ+YLLTWsNf0/ERQZk7osqJoCNMo4KLhA+CivuNuA/scsaBQe7YlhwzvspjVHEihCFWpkLhAD97OpfSvf8keF+popA7vUe394Tf0tfnXa59LwTfaz2PrdvF+GYpTw8DNoXpa193KrdReNpglOChJo10RKuOmixo4bqMaxGwUj6IvZrG7sdnNHKlRlM8yGKsHyD6/qsRa77BST2lIQVRyOVNCDcUr8J6LV6DRlj63OKLOXHKJZ/uRnAWhNj3MUMXotrcNiOfT/XeIc="
+    "2025-09-26T12:53:59Z"
+    "rsapss-sha256=M5eIGeHGO2MtOk5UL2MAxjofc2uIruq18B0cUYR7ANu238bdaKvRg60D/mrsGT00YMK89Q/gnqNQA0jXlk2SlsOP0vcS0cE3UX2/aaXkWzJ8I2PiOSBLm5thb1mEuS+qhdp+agjqr/tZdRPymcTdrUY6r2kGoQI4vvLIHM/PvYHAnGAgx3SfKmNvBRrdFXgSnxHzroIswLnlSwYLr0ci3rW3e0RTofts5nuf+kpXKtmFDlEXxrs5I1mtKumJYmoRtizaBKGmCDEkctONYR/bOsRhPR7p6137AX0fQ0p3zvJFI0DyTMqLCaBFVMexBGFw2ybI24/l28sywyXZg5EoHP6jwKYqgJLTxRSRjgBR1EG1ByisdnjJs6ZGsNyQJf+uNStucyADyPDS+qyjLsc8gR1AsuQOlekzN9SBfyXgLS4H1Bck8IypSgKQ6s4X/lSkI8bvIbTGGOkl0g6Q4+rkMIb0fdRF/pWp5K/5dQgxs7zGXFKKKCRAAZAXVx3vspKY5eG/QsmjaIb79HJeJZ9WngMW85peOS/rR20pKVNeYn0G8grgrnwhia8dTutB9+kUFttrtq3Zc1N/agfaKfGzctavWJ0flYU+jDzFg//Fi3cBgVvoSD2myDCkq8HXw/IEacUnkZVQPvCqj+EGqFpGdhPA+VrxFC5t6KaUt0k9xVU="
   ]
 ]
