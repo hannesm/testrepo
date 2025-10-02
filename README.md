@@ -79,6 +79,19 @@ $ conex_verify_openssl -v --dir `pwd` -t sha256=3aedc7043e771efc42a3c3e6b60fa6ba
 ```
 $ conex_key --id snap
 $ conex_root add-to-role --role snapshot --id snap --key-hash 330a88f5fcc03dc47f5c7ddadbc8120f73b0ed2a81cfed93a18af93ab1c50253
+$ conex_root sign --id rootA
 $ conex_snapshot create --id snap
+# have to put the key into snap
 $ conex_snapshot sign --id snap
+```
+
+## Timestamp service
+
+```
+$ conex_key --id timestamp
+$ conex_root add-to-role --role timestamp --id timestamp --key-hash 66013a5e2b2fe48119423034a1d4aab0a53152f231ede192093d329d25c4916e
+$ conex_root sign --id rootA
+$ conex_timestamp create --id timestamp
+# have to put the key into timestamp
+$ conex_timestamp sign --id timestamp
 ```

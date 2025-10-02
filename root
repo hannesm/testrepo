@@ -6,6 +6,14 @@ signed: [
     roles
     [
       [
+        timestamp
+        [
+          timestamp
+          "sha256=66013a5e2b2fe48119423034a1d4aab0a53152f231ede192093d329d25c4916e"
+          0x0
+        ]
+      ]
+      [
         snapshot
         [
           snap
@@ -65,12 +73,12 @@ rK/UN2i03+AgTlHF8PLSylINAR3CmxMhmhxMzMIi/bw1REslAIuVY93lfaIpUGt9
   [epoch 0x0]
   [datadir "packages"]
   [created "2018-07-27T11:26:24-00:00"]
-  [counter 0x7]
+  [counter 0x8]
 ]
 signatures: [
   [
     rootA
-    "2025-09-26T13:31:03Z"
-    "rsapss-sha256=Bzbb2rnu4yJHRpXfr+sxLTt86YYa08dEgTkmALcplDyAiJmB8MNW9qTw50SGmS2QpczNMCQTL5ewT+E3IDwFXfDtmjHC/je8eA896GLI9p005IuTZ0YMPO85vHljWdKX5TB9kdJxKb5VPsiC4qwxlSFdIyJjxKGcCXqsNT4RKiu4qS/Ru3N+cY2n+Lcfz9xheKFirSjOSHkV8xgsRfQ6DBoN80GZcVAsamzGqOcONqd1DQqpJ1h2zQGrRYmo40/e58DUx05fxdD1g8OMwCE7gl+fb4rj6KbkvB1R+nNPN8hcqf1NNihvoGAHxFIydeszMNu6I7Th7WyeMFKb01rewyLXCbibFOcBFR3pjyAojuBVxbqBQrEp6MDvDFQOBjyGy7mx6lWBcsXvBHUXRLmebYoNCXDb0teK9kOj3oZtRe6kYzNMQ/X5esN4J6I1pP5eqOLexmUNWCmIqhwKLO1PHguRrbeoJlrCtRs82B2uN06AlBJ1Kef26OdLA+fevWK77e+jesO0HXIxbFJoSuiJa+3Hejjr0cbXWTAUZsvNq4KAPR/Ha3bkWoKa/RwKHtHTlxp7aSl6Cx2IvZF41j2jQibsN5AFPGgHrRJ0o2VPS+2fqmANLiahPQy9moATOuBF42kteGsIS3au3nQuL2q1BvTujUcwpuyJHiAps0QZIdg="
+    "2025-10-02T08:27:17Z"
+    "rsapss-sha256=BXb20iSU58TWDndx5N5J80DMetX745OGYMsAWPjBU7lKJKJ58iYwbhr1xfMTXLsUZb170HnY6mXOrgUwMHiBB1LPwW++1fZj4Zdk9ogLd2OYPKvUAyv7zIvhch4BiFD0DT8wHbhnNiIffFzYgI/pNQWmGcetFn4l+py433Q/SEZtp3KI2o0ykZ1QKVPB0S+LNhXh62M0qYUAvy1Vr8rHJ4BW6Rg0qbTjwVdSK8vSncLYN3XfrXXMPJXWjMXqSiT0qXO9espGnz9nTKoQQWQVLhwiDlIU+LCERcZXst+5ZoEuKkbsX1d8ZDB5HyYLhyzXfchAyPhEDTERpMS6RaITeKxjc3htt1xTCslkzs8gRVOAASf+WKriv8DdOQA1WURtR15bySd2dQNlse1eQArIjJ9N2o1Njlq/c1Df5bcfu86Pgy9+3LlaWjcFaxFM3N7KTq2JcbiAFAQYEhLKvUeYf+VQ7SDQ44dasEjoMrQJbnzrbfQu3DCKLHDx8y9zn0TaS4A5jdxhd0uoL/1Y7Cf/6F0ExAySWTkgaT1FPas5YBIE7pqUQzPbxye4aV6VSDqaFBcZiZRSOAxlLcC73TqyJdAQC6+RivwagQWXjoXpsBHDQcjZgwgy2xI4n1RkMos/fKIvyGphDA8gPJndPwbOoNlq2bF/RvU7JYDpZ4hFhLM="
   ]
 ]

@@ -1,0 +1,54 @@
+signed: [
+  [version 0]
+  [typ timestamp]
+  [
+    targets
+    [
+      [
+        [size 0x9A5]
+        [filename "snap"]
+        [
+          digest
+          [
+            "sha256=b85b0ddfaeecf97b43ba5a958fb6e010efdc99941c36f5ae9493c396c67c5645"
+          ]
+        ]
+      ]
+    ]
+  ]
+  [name "timestamp"]
+  [
+    keys
+    [
+      [
+        timestamp
+        "2025-09-26T13:23:52Z"
+        """\
+rsa=-----BEGIN PUBLIC KEY-----
+MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA1tacqqRodfzi5FB3byU/
+ahKTv1W28772Co9Jlb6SwjUncb+B5D4BOelBpdQ2Rfaq4i1cxciw0a9Wd+ZIifV+
+bdNNkgtQoFh2v8pH1SXvb3XCV7xYHTTNTUYhOx7Uv8i30URiaJ1RjG7hUfVcVrB+
+/Kmm63d41xymWpCdCleulVEVHNLCK3ply02p+j2PIhQRM1lAppJ1WunG+Y0JQb5L
+J1chXfJqvXGcN4Z779+HT75Na9S7mXTYdtaOuGpf59T7mwE2DtDJrY1xGTucZbLW
+LL/KEdmZy2ZLsojb2CBY6jif/tYVQ8jfNHa7yjM8G85uiL/PNkbJuxOM8fo2VCtq
+RzfJ21m9kQ84D1ci5CiW6ERoTp/FKTAZGSJHRacYuSGbdpHaWSQApyaa+LF8VnnH
+V0Wu28jfV03h9OqMFOG4DTD3mkvOSggUhYwO4BNgh6rmKGkoH5swCIYfg8R0+APq
+G/hxHL6BAgakJFmDihS0775LuL96bh8QGpqRQtBXNX2HLzY9MVW4y4u4Ik772Gyv
+7DqmW2yQzAS8GQ3sfWLCNWvWvNtkh69PUlGQzplUTB5Ich3mXfVAW8v0xOc1MsME
+gUyBBUUYkkWplryDrTo+a6DKOlXAL9I2MO1Axz0KFZmriq2kus3h3OxfuZ9p6mGI
+nFFCGU3qezLedxuw022S7uMCAwEAAQ==
+-----END PUBLIC KEY-----"""
+      ]
+    ]
+  ]
+  [epoch 0x0]
+  [created "2025-10-02T08:39:06Z"]
+  [counter 0x2]
+]
+signatures: [
+  [
+    timestamp
+    "2025-10-02T08:41:26Z"
+    "rsapss-sha256=AyGhv0QeVxk4B4VnLxNlY1ykTfbEah0ZbXc6HMnHPwPs+fBwYSAip1a0YYfY712d7i1+85H29iqbS226r/BcW5KXA2D9w5QOzntMAJiQgKE9lwanVnDRTx3m3WQnwGfi0kHGcw/sYvpCdK3Kq+MHEWbCyo0fbIICNMTBaN9UCUbtjyZ0XCodAuX9ajcXJGCBFF+sfZH6S3evcrLH4yVWYGF+3Gkm4HvlV62LgxTohojeXrgfTClWyfczsmGXzs0fpMRM8xeZ36badaQKFtJPY8/i9jEfHXPTFI3oOMZieTOGkDMwvaTB1pWk8Cd4sM1LQzyFTkdKKPvFGN8iOujBVR3HoRNxc/E3Je2SIwF/jJHdsPjZmXKFKrjysmbrij+uemazmIc9KH2p/I32rI0Isn2W3Ln0tyLooGJmZt9ERZTLuKyOAVmdOCzyj8XdUbX5KyrHqeSb2jbzK7btyr7XvIrGJmfsmoL6pb6a6AzZDMI0r/TYLKqC3n3N3WACZptGYDMwD5eHmuHCV/y8OF0nmKw78lGO9Miya0ll219tgJCfSQbzgCJK6jiBdDVoIhHwsBFc0xpwNzJskgtCFkN11LjngQ61rcNUiW0tkLBnHmlclzGPANEmWFi9ogaQHZv1waGXRYgVRij/pa4SxCWLwx4Xdop77rqTlfCZCYAwKNM="
+  ]
+]
