@@ -53,10 +53,10 @@ $ conex_key --id m3
 # root
 $ conex_root create
 $ conex_key --id rootA --pub
-$ conex_root add-key --id rootA --key-data <rootA public key>
-$ conex_root add-to-role --role maintainer --id m1 --key-hash 2ad4be04dc2975ffb535051182bfd3b50bc335eca8217bee157f28459794d0df
-$ conex_root add-to-role --role maintainer --id m2 --key-hash bc89a93e3864fae4b8e854a9bdc321f7e7ed773847c8faf96f49bc28ec87063b
-$ conex_root add-to-role --role maintainer --id m3 --quorum 2 --key-hash 4afb0d4da44350852482f423fe72f5599c1072c6970dc05a151dfeab3efc3d9d
+$ conex_root add-key --id rootA
+$ conex_root add-to-role --role maintainer --id m1 #--key-hash 2ad4be04dc2975ffb535051182bfd3b50bc335eca8217bee157f28459794d0df
+$ conex_root add-to-role --role maintainer --id m2 #--key-hash bc89a93e3864fae4b8e854a9bdc321f7e7ed773847c8faf96f49bc28ec87063b
+$ conex_root add-to-role --role maintainer --id m3 --quorum 2 #--key-hash 4afb0d4da44350852482f423fe72f5599c1072c6970dc05a151dfeab3efc3d9d
 $ conex_root sign --id rootA
 
 # targets (maintainer) - repeat for m2 and m3
@@ -78,10 +78,9 @@ $ conex_verify_openssl -v --dir `pwd` -t sha256=3aedc7043e771efc42a3c3e6b60fa6ba
 
 ```
 $ conex_key --id snap
-$ conex_root add-to-role --role snapshot --id snap --key-hash 330a88f5fcc03dc47f5c7ddadbc8120f73b0ed2a81cfed93a18af93ab1c50253
+$ conex_root add-to-role --role snapshot --id snap #--key-hash 330a88f5fcc03dc47f5c7ddadbc8120f73b0ed2a81cfed93a18af93ab1c50253
 $ conex_root sign --id rootA
 $ conex_snapshot create --id snap
-# have to put the key into snap
 $ conex_snapshot sign --id snap
 ```
 
@@ -89,9 +88,8 @@ $ conex_snapshot sign --id snap
 
 ```
 $ conex_key --id timestamp
-$ conex_root add-to-role --role timestamp --id timestamp --key-hash 66013a5e2b2fe48119423034a1d4aab0a53152f231ede192093d329d25c4916e
+$ conex_root add-to-role --role timestamp --id timestamp #--key-hash 66013a5e2b2fe48119423034a1d4aab0a53152f231ede192093d329d25c4916e
 $ conex_root sign --id rootA
 $ conex_timestamp create --id timestamp
-# have to put the key into timestamp
 $ conex_timestamp sign --id timestamp
 ```
