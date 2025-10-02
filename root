@@ -19,11 +19,6 @@ signed: [
         [
           [
             m1
-            "sha256=2ad4be04dc2975ffb535051182bfd3b50bc335eca8217bee157f28459794d0de"
-            0x0
-          ]
-          [
-            m1
             "sha256=2ad4be04dc2975ffb535051182bfd3b50bc335eca8217bee157f28459794d0df"
             0x0
           ]
