@@ -8,11 +8,10 @@ To test `conex_verify`, you need to add the following to your `$(OPAMROOT)/confi
 repository-validation-command: [
   "conex_verify_mirage_crypto" "--quorum" "%{quorum}%"
   "--trust-anchors" "%{anchors}%"
-  "--repo" "%{repo}%"
+  "--repository" "%{repo}%"
   "--dir=%{dir}%" { ! incremental }
   "--patch=%{patch}%" { incremental }
   "--incremental" { incremental }
-  "--no-opam"
 ]
 ```
 
@@ -52,7 +51,6 @@ $ conex_key --id m3
 
 # root
 $ conex_root create
-$ conex_key --id rootA --pub
 $ conex_root add-key --id rootA
 $ conex_root add-to-role --role maintainer --id m1 #--key-hash 2ad4be04dc2975ffb535051182bfd3b50bc335eca8217bee157f28459794d0df
 $ conex_root add-to-role --role maintainer --id m2 #--key-hash bc89a93e3864fae4b8e854a9bdc321f7e7ed773847c8faf96f49bc28ec87063b
